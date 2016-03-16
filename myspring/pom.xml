@@ -14,7 +14,7 @@
         <artifactId>spring-context</artifactId>
         <version>4.3.0.BUILD-SNAPSHOT</version>
     </dependency>
-</dependencies>
+  </dependencies>
 
 <repositories>
     <repository>
@@ -25,7 +25,14 @@
             <enabled>true</enabled>
         </snapshots>
     </repository>
-</repositories>
-  
+ </repositories> 
+ 
+  <!-- <dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>4.2.5.RELEASE</version>
+    </dependency>
+</dependencies> -->
   
 </project>
